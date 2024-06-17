@@ -47,7 +47,6 @@ const Roadmap = () => (
                       <div className="tagline">{status}</div>
                     </div> */}
                   </div>
-
                   <div className="mb-10 -my-10 -mx-15">
                     <img
                       className="w-full"
@@ -58,7 +57,8 @@ const Roadmap = () => (
                     />
                   </div>
                   <h4 className="h4 mb-4">{item.title}</h4>
-                  <p className="body-2 text-n-4">{item.text}</p>
+                  <p className="body-2 text-n-4">{item.text}</p>{" "}
+                  <span>{item.role}</span>
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ const Roadmap = () => (
       </div>
 
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/roadmap">Register Now</Button>
+        <Button href="https://forms.gle/aGJz5GwKPPf3gg658">Register Now</Button>
       </div>
     </div>
   </Section>

@@ -32,6 +32,7 @@ import aologo from "./aologo.jpg"
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
+import poster from "./hero/poster.png";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -64,9 +65,9 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
-import roadmap2 from "./roadmap/image-2.png";
-import roadmap3 from "./roadmap/image-3.png";
+import roadmap1 from "./roadmap/reactt.png";
+import roadmap2 from "./roadmap/azuret.png";
+import roadmap3 from "./roadmap/pyt.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
 
@@ -128,6 +129,7 @@ export {
   background,
   curve,
   robot,
+  poster,
   heroBackground,
   curve1,
   curve2,
