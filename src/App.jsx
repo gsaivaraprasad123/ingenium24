@@ -18,7 +18,7 @@ const App = () => {
         <Collaboration />
         <Services />
         <Pricing />
-        <Roadmap />
+        {/* <Roadmap /> */}
         <Footer />
       </div>
 

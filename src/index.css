@@ -14,7 +14,7 @@
 }
 
 * {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 @layer base {
@@ -24,13 +24,15 @@
 }
 
 .text-gradient {
-  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
-      #def9fa 0.89%,
-      #bef3f5 17.23%,
-      #9dedf0 42.04%,
-      #7de7eb 55.12%,
-      #5ce1e6 71.54%,
-      #33bbcf 100%);
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -38,65 +40,75 @@
 }
 
 .rotate-45 {
-  @apply rotate-[45deg]
+  @apply rotate-[45deg];
 }
 
 .rotate-90 {
-  @apply rotate-[90deg]
+  @apply rotate-[90deg];
 }
 
 .rotate-135 {
-  @apply rotate-[135deg]
+  @apply rotate-[135deg];
 }
 
 .rotate-180 {
-  @apply rotate-[180deg]
+  @apply rotate-[180deg];
 }
 
 .rotate-225 {
-  @apply rotate-[225deg]
+  @apply rotate-[225deg];
 }
 
 .rotate-270 {
-  @apply rotate-[270deg]
+  @apply rotate-[270deg];
 }
 
 .rotate-315 {
-  @apply rotate-[315deg]
+  @apply rotate-[315deg];
 }
 
 .rotate-360 {
-  @apply rotate-[360deg]
+  @apply rotate-[360deg];
 }
 
 .-rotate-45 {
-  @apply rotate-[-45deg]
+  @apply rotate-[-45deg];
 }
 
 .-rotate-90 {
-  @apply rotate-[-90deg]
+  @apply rotate-[-90deg];
 }
 
 .-rotate-135 {
-  @apply rotate-[-135deg]
+  @apply rotate-[-135deg];
 }
 
 .-rotate-180 {
-  @apply rotate-[-180deg]
+  @apply rotate-[-180deg];
 }
 
 .-rotate-225 {
-  @apply rotate-[-225deg]
+  @apply rotate-[-225deg];
 }
 
 .-rotate-270 {
-  @apply rotate-[-270deg]
+  @apply rotate-[-270deg];
 }
 
 .-rotate-315 {
-  @apply rotate-[-315deg]
+  @apply rotate-[-315deg];
 }
 
 .-rotate-360 {
-  @apply rotate-[-360deg]
+  @apply rotate-[-360deg];
+}
+
+/* Hide scrollbar for all browsers */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }

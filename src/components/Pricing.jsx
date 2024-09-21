@@ -1,5 +1,5 @@
 import Section from "./Section";
-import { smallSphere, stars } from "../assets";
+import { smallSphere, stars, service3 } from "../assets";
 import Heading from "./Heading";
 import PricingList from "./PricingList";
 import { LeftLine, RightLine } from "./design/Pricing";
@@ -28,7 +28,7 @@ const Pricing = () => {
         </div>
 
         <Heading
-          // tag="Get started with Brainwave"
+          tag="Get started with TEAM"
           title="Interested in Knowing What's Happening ?"
         />
 

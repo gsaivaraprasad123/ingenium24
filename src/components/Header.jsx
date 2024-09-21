@@ -67,12 +67,6 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <a
-          href="#signup"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
-        >
-          About TEAM
-        </a>
         <Button
           className="hidden lg:flex"
           href="https://forms.gle/aGJz5GwKPPf3gg658"

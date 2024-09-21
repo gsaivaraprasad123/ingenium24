@@ -82,9 +82,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [oppologo, aologo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "React X",
+  "Python for AI",
+  "Cloud Computing",
 ];
 
 export const brainwaveServicesIcons = [
@@ -265,6 +265,61 @@ export const pricing = [
       "Ending ceremony of Ingenium",
     ],
   },
+  {
+    id: "4",
+    title: "Day 4",
+    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    price: null,
+    features: [
+      "Speaker Summit",
+      "Prize Presentation Ceremony",
+      "Ending ceremony of Ingenium",
+    ],
+  },
+  {
+    id: "5",
+    title: "Day 4",
+    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    price: null,
+    features: [
+      "Speaker Summit",
+      "Prize Presentation Ceremony",
+      "Ending ceremony of Ingenium",
+    ],
+  },
+  {
+    id: "6",
+    title: "Day 4",
+    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    price: null,
+    features: [
+      "Speaker Summit",
+      "Prize Presentation Ceremony",
+      "Ending ceremony of Ingenium",
+    ],
+  },
+  {
+    id: "7",
+    title: "Day 4",
+    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    price: null,
+    features: [
+      "Speaker Summit",
+      "Prize Presentation Ceremony",
+      "Ending ceremony of Ingenium",
+    ],
+  },
+  {
+    id: "8",
+    title: "Day 4",
+    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    price: null,
+    features: [
+      "Speaker Summit",
+      "Prize Presentation Ceremony",
+      "Ending ceremony of Ingenium",
+    ],
+  },
 ];
 
 export const benefits = [
@@ -276,21 +331,24 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    // light: true,
   },
   {
     id: "1",
-    title: "Coming Soon .",
+    title: "Tech Tickle",
     text: "Stay tuned for more exciting details! Coming soon—don't miss out on the updates!",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
+    date: "DATE: Await 🤫",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
   },
   {
     id: "2",
-    title: "Coming Soon...",
+    title: "Ingenium 2K25.",
     text: "Stay tuned for more exciting details! Coming soon—don't miss out on the updates! ",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
+    date: "DATE:  Await 🤫",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
