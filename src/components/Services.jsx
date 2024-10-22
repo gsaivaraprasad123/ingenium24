@@ -78,7 +78,7 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Vishesh 2K23</h4>
+                <h4 className="h4 mb-4">Vishesh 2K24</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
                   VISHESH is an annual intercollege tech expo, uniting students
                   to showcase innovative ideas in a two-day competition.

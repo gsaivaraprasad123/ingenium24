@@ -3,6 +3,7 @@ import { smallSphere, stars, service3 } from "../assets";
 import Heading from "./Heading";
 import PricingList from "./PricingList";
 import { LeftLine, RightLine } from "./design/Pricing";
+import ExecutiveLine from "./ExecutiveLine";
 
 const Pricing = () => {
   return (
@@ -34,6 +35,7 @@ const Pricing = () => {
 
         <div className="relative">
           <PricingList />
+          <ExecutiveLine />
           <LeftLine />
           <RightLine />
         </div>
