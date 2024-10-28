@@ -41,7 +41,7 @@ const PricingList = () => {
           <h4 className="h4 mb-4">{item.title}</h4>
 
           <img
-            src={service3}
+            src={item.image}
             className="w-full h-full object-cover"
             width={420}
             height={300}

@@ -21,13 +21,12 @@ import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
 import teamlogowhite from "./teamlogowhite.png";
-import ingeniumlogo24 from "./ingeniumlogo24.png"
-import ingeniummainlogo from "./ingeniummainlogo.png"
-import ingeniumlogotrans from "./teamlogotrans.png"
+import ingeniumlogo24 from "./ingeniumlogo24.png";
+import ingeniummainlogo from "./ingeniummainlogo.png";
+import ingeniumlogotrans from "./teamlogotrans.png";
 
-import oppologo from "./oppologo.png"
-import aologo from "./aologo.jpg"
-
+import oppologo from "./oppologo.png";
+import aologo from "./aologo.jpg";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
@@ -51,9 +50,8 @@ import nodejs from "./collaboration/nodejs.png";
 import ai from "./collaboration/ai.png";
 import tensorflow from "./collaboration/tensorflow.png";
 import python from "./collaboration/python.png";
-import aws from "./collaboration/aws.png"
-import js from "./collaboration/js.png"
-
+import aws from "./collaboration/aws.png";
+import js from "./collaboration/js.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -97,8 +95,59 @@ import linkedin from "./socials/linkedin.svg";
 import whatsapp from "./socials/whatsapp.svg";
 import youtube from "./socials/youtube.svg";
 
+import vishal from "./team_pics/0.jpg";
+import srinivas from "./team_pics/1.jpg";
+import vishnu from "./team_pics/2.png";
+import srivani from "./team_pics/3.jpg";
+import vara from "./team_pics/4.jpg";
+import kee from "./team_pics/5.png";
+import prava from "./team_pics/6.jpg";
+import rishab from "./team_pics/7.jpg";
+import aru from "./team_pics/8.png";
+import kavya from "./team_pics/9.png";
+
+import ishant from "./team_pics/10.jpg";
+import kapil from "./team_pics/11.jpg";
+import lasya from "./team_pics/12.jpg";
+import sneha from "./team_pics/13.jpg";
+import janvi from "./team_pics/14.jpg";
+import lokesh from "./team_pics/15.png";
+import ragha from "./team_pics/16.jpg";
+import varshita from "./team_pics/17.jpeg";
+import abhi from "./team_pics/18.jpg";
+import pavan from "./team_pics/19.jpg";
+import bhavana from "./team_pics/20.jpg";
+import gangadhar from "./team_pics/22.jpg";
+import rishika from "./team_pics/23.jpg";
+import mani from "./team_pics/24.jpg";
+import kai from "./team_pics/25.jpg";
 
 export {
+  vishal,
+  srinivas,
+  vishnu,
+  srivani,
+  vara,
+  kee,
+  prava,
+  rishab,
+  aru,
+  kavya,
+  ishant,
+  kapil,
+  lasya,
+  sneha,
+  janvi,
+  lokesh,
+  ragha,
+  varshita,
+  abhi,
+  pavan,
+  bhavana,
+  gangadhar,
+  rishika,
+  mani,
+  kai,
   teamlogowhite,
   ingeniumlogo24,
   ingeniumlogotrans,
