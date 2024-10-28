@@ -1,17 +1,16 @@
-import {  check,teamlogowhite } from "../assets";
+import { check, teamlogowhite } from "../assets";
 import { collabApps, collabContent } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
-
 const Collaboration = () => {
   return (
-    <Section  id="benefits" crosses>
-      <div className="container lg:flex" >
+    <Section id="benefits" crosses>
+      <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-          Discover the Benefits: What You Gain from This?
+            Discover the Benefits: What You Gain from This?
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
@@ -28,13 +27,13 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Register Now</Button>
+          <Button href="https://forms.gle/3tmSMtYhcfgN7q7Z6">
+            Register Now
+          </Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
-          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
-            
-          </p>
+          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto"></p>
 
           <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
