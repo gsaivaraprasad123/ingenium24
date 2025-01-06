@@ -8,7 +8,7 @@ const PricingList = () => {
   // Auto-scroll effect with faster speed and infinite scroll
   useEffect(() => {
     const scrollContainer = scrollRef.current;
-    const scrollStep = 100; // Increase this value for faster scrolling
+    const scrollStep = 50; // Increase this value for faster scrolling
     const scrollDelay = 20; // Reduce this value for quicker intervals (ms)
 
     const autoScroll = () => {
